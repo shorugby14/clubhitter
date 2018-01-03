@@ -9,7 +9,7 @@ return array(
     'mpyw\\Cowitter\\' => array($vendorDir . '/mpyw/cowitter/src'),
     'mpyw\\Co\\' => array($vendorDir . '/mpyw/co/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
-    'Slim\\Views\\' => array($vendorDir . '/slim/twig-view/src'),
+    'Slim\\Views\\' => array($vendorDir . '/slim/twig-view/src', $vendorDir . '/slim/php-view/src'),
     'Slim\\' => array($vendorDir . '/slim/slim/Slim'),
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),

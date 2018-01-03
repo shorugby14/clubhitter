@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInitefcdb5d29d1f851c82d86b60e39ed01d
 {
     public static $files = array (
-        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -61,6 +61,7 @@ class ComposerStaticInitefcdb5d29d1f851c82d86b60e39ed01d
         'Slim\\Views\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/twig-view/src',
+            1 => __DIR__ . '/..' . '/slim/php-view/src',
         ),
         'Slim\\' => 
         array (
