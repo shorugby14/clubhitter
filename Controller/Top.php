@@ -1,5 +1,5 @@
 <?php
-namespace clubhitter;
+namespace clubhitter\Controller;
 
 class Top{
     protected $container;
